@@ -45,32 +45,16 @@ p{
 
 
 /* navbar */
-
 nav{
-    /* width: 95%; */
-    display: flex;
-    justify-content: end;
-    align-content: center;
-    margin-left: 10%;
-}
-nav .navbar-brand{
-   font-size: 29px;
-    font-weight: 600;
-    text-transform: capitalize;
+    width: 75%;
 }
 
-nav .container-fluid ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
 
-}
+/* banner */
 nav .container-fluid ul li a{
     color: white;
     font: size 16px !important;;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     transition: all 0.4s ease-in-out;
 }
 nav .container-fluid ul li a:hover{
@@ -78,27 +62,27 @@ nav .container-fluid ul li a:hover{
     font: size 16px !important;;
     /* margin-left: 10px; */
 }
-nav .container-fluid ul li a .active{
-    color: #fa8405!;
-    font: size 16px !important;;
-    /* margin-left: 10px; */
-}
-
-/* banner */
 
 .banner{
     width: 100%;
-    height: 110vh;
+    height: 115vh;
     background-image: url(../image/banner-bg.png);
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.507);
     background-blend-mode: overlay;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .banner-main{
     width: 80%;
     height: 80%;
+    /* margin-top: 5%; */
+   
    
     /* flex-direction: column; */
 }
@@ -111,6 +95,10 @@ nav .container-fluid ul li a .active{
     /* align-items: center; */
     flex-direction: column;
     gap: 20px;
+}
+.banner-main .left-container button{
+    width: 55%;
+
 }
 .banner-main .right-container{
     width:50%;

@@ -48,20 +48,27 @@ p{
 nav{
     width: 75%;
 }
+nav .navbar-brand{
+    font-size: 29px!important;
+    font-weight: 800;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
 
 
-/* banner */
 nav .container-fluid ul li a{
     color: white;
     font: size 16px !important;;
     /* margin-left: 10px; */
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 nav .container-fluid ul li a:hover{
     color: #fa8405;
     font: size 16px !important;;
     /* margin-left: 10px; */
 }
+
+/* banner */
 
 .banner{
     width: 100%;

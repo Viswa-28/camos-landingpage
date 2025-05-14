@@ -22,12 +22,12 @@ gsap.to(".left-carousel",{
     scrollTrigger: {
         trigger: ".carousel",
         start:"top center",
-        end:"bottom center",
+        end:"center 50%",
         scrub: true,
-        // markers: true
+        markers: true
         // toggle: "active"
     },
-    x: "130%",
+    x:"5%",
     // rotation: 360,
     duration: 3,
     // scrub: true
@@ -38,12 +38,12 @@ gsap.to(".right-carousel",{
     scrollTrigger: {
         trigger: ".carousel",
         start:"top center",
-        end:"bottom center",
+        end:"center 50%",
         scrub: true,
-        // markers: true
+        markers: true
         // toggle: "active"
     },
-    x: "240%",
+    x:"15%",
     // rotation: 360,
     duration: 3,
     // scrub: true

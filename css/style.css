@@ -26,6 +26,12 @@ p{
     font-weight: 400;
     text-transform: capitalize;
 }
+h2{
+font-size: clamp(1rem, 0.7222rem + 1.3889vw, 1.9375rem)!important;
+color: white!important;
+font-weight: 600;
+text-transform: capitalize;
+}
 
 .primary-btn{
     background:linear-gradient(to right,#fa8405,#fb9f3cfe )!important;
@@ -110,6 +116,7 @@ nav .container-fluid ul li a:hover{
 }
 .banner-main .right-container{
     width:50%;
+    
     /* height: 100vh; */
     display: flex;
     justify-content: center;
@@ -117,6 +124,10 @@ nav .container-fluid ul li a:hover{
     flex-direction: column;
     gap: 20px;
 }
+/* .banner-main .right-container img{
+    height: 600px;
+    width: 600px;
+} */
 
 
 
@@ -146,13 +157,56 @@ nav .container-fluid ul li a:hover{
 
 .left-carousel{
    transform: translateX(-200%);
-   transition: all 0.5s ease-in;
+   transition: all 0.5s ;
 
 }
 .right-carousel{
     transform: translateX(-250%);
-    transition: all 0.5s ease-in;;
+    transition: all 0.5s ;
    
 }
 
+
+
+/* best */
+.best{
+    height: 600px;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.best .best-bottom{
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.best .best-bottom img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.best .best-bottom i{
+    margin-top: 50px!important;
+    font-size: 20px;
+    color: white;
+}
+
+.best .best-bottom img:hover{
+    /* transform: rotate3d(1, 1, 1, 360deg); */
+    /* transform: perspective(1000px) rotateY(360deg); */
+    transform: scale3d(1.1, 1.1, 1.1);
+    box-shadow: 0px 0px 15px #fa8405;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.4s ease-in-out;
+}
 

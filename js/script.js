@@ -24,12 +24,12 @@ gsap.to(".left-carousel",{
         start:"top center",
         end:"bottom center",
         scrub: true,
-        markers: true
+        // markers: true
         // toggle: "active"
     },
     x: "130%",
     // rotation: 360,
-    duration: 2,
+    duration: 3,
     // scrub: true
   
 })
@@ -40,12 +40,12 @@ gsap.to(".right-carousel",{
         start:"top center",
         end:"bottom center",
         scrub: true,
-        markers: true
+        // markers: true
         // toggle: "active"
     },
     x: "240%",
     // rotation: 360,
-    duration: 2,
+    duration: 3,
     // scrub: true
   
 })

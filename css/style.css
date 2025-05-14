@@ -146,10 +146,12 @@ nav .container-fluid ul li a:hover{
 
 .left-carousel{
    transform: translateX(-200%);
+   transition: all 0.5s ease-in;
 
 }
 .right-carousel{
     transform: translateX(-250%);
+    transition: all 0.5s ease-in;;
    
 }
 

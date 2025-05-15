@@ -24,7 +24,7 @@ gsap.to(".left-carousel",{
         start:"top center",
         end:"center 50%",
         scrub: true,
-        markers: true
+        // markers: true
         // toggle: "active"
     },
     x:"5%",
@@ -40,7 +40,7 @@ gsap.to(".right-carousel",{
         start:"top center",
         end:"center 50%",
         scrub: true,
-        markers: true
+        // markers: true
         // toggle: "active"
     },
     x:"15%",
@@ -50,3 +50,41 @@ gsap.to(".right-carousel",{
   
 })
 
+
+
+
+
+
+// open
+
+gsap.to(".open .left-container",{
+    
+        scrollTrigger: {
+            trigger: ".open",
+            start:"top center",
+            end:"center 80%",
+            scrub: true,
+            // markers: true
+            // toggle: "active"
+        },
+        x:"5%",
+        // rotation: 360,
+        duration: 3,
+        // scrub: true
+})
+
+gsap.to(".open .right-container",{
+    
+    scrollTrigger: {
+        trigger: ".open",
+        start:"top center",
+        end:"center 80%",
+        scrub: true,
+        // markers: true
+        // toggle: "active"
+    },
+    x:"-1%",
+    // rotation: 360,
+    duration: 3,
+    // scrub: true
+})();

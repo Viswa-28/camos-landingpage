@@ -202,11 +202,40 @@ nav .container-fluid ul li a:hover{
 
 .best .best-bottom img:hover{
     /* transform: rotate3d(1, 1, 1, 360deg); */
-    /* transform: perspective(1000px) rotateY(360deg); */
-    transform: scale3d(1.1, 1.1, 1.1);
+    transform: perspective(1000px) rotateY(180deg);
+    /* transform: scale3d(1.1, 1.1, 1.1); */
     box-shadow: 0px 0px 15px #fa8405;
     cursor: pointer;
     border-radius: 20px;
     transition: all 0.4s ease-in-out;
 }
 
+
+
+/* open */
+.open{
+    width: 100%;
+   height: 800px;
+}
+.open .left-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    transform: translateX(-200%);
+    transition: all 0.5s ;
+}
+.open .right-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    transform: translateX(200%);
+    transition: all 0.5s ;
+}

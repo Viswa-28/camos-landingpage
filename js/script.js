@@ -27,7 +27,7 @@ gsap.to(".left-carousel",{
         // markers: true
         // toggle: "active"
     },
-    x:"5%",
+    x:"4%",
     // rotation: 360,
     duration: 3,
     // scrub: true
@@ -43,7 +43,7 @@ gsap.to(".right-carousel",{
         // markers: true
         // toggle: "active"
     },
-    x:"15%",
+    x:"5%",
     // rotation: 360,
     duration: 3,
     // scrub: true
@@ -83,7 +83,7 @@ gsap.to(".open .right-container",{
         // markers: true
         // toggle: "active"
     },
-    x:"-1%",
+    x:"5%",
     // rotation: 360,
     duration: 3,
     // scrub: true

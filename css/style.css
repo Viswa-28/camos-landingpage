@@ -4,47 +4,51 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  /* overflow-x: hidden; */
+    font-family: 'Poppins', sans-serif;
+    /* overflow-x: hidden; */
 }
-body{
-    background-color: black!important;
+
+body {
+    background-color: black !important;
     overflow-x: hidden;
 }
 
 
 /* components */
 
-h1{
-    font-size: clamp(1.25rem, 0.6944rem + 2.7778vw, 3.125rem)!important;
-    color: white!important;
+h1 {
+    font-size: clamp(1.25rem, 0.6944rem + 2.7778vw, 3.125rem) !important;
+    color: white !important;
     font-weight: 800;
     text-transform: capitalize;
 }
-p{
-    font-size: clamp(1rem, 0.8519rem + 0.7407vw, 1.5rem)!important;
-    color: white!important;
+
+p {
+   font-size: clamp(0.875rem, 0.4063rem + 1.5vw, 1.25rem)!important;
+    color: white !important;
     font-weight: 400;
     text-transform: capitalize;
 }
-h2{
-font-size: clamp(1rem, 0.7222rem + 1.3889vw, 1.9375rem)!important;
-color: white!important;
-font-weight: 600;
-text-transform: capitalize;
+
+h2 {
+    font-size: clamp(1rem, 0.7222rem + 1.3889vw, 1.9375rem) !important;
+    color: white !important;
+    font-weight: 600;
+    text-transform: capitalize;
 }
 
-.primary-btn{
-    background:linear-gradient(to right,#fa8405,#fb9f3cfe )!important;
+.primary-btn {
+    background: linear-gradient(to right, #fa8405, #fb9f3cfe) !important;
     padding-inline: 27px;
     padding-block: 10px;
     border-radius: 6px;
     border: none;
     color: white;
-    font: size 14px!important;
+    font: size 14px !important;
     transition: all 0.4s ease-in-out;
 }
-.primary-btn:hover{
+
+.primary-btn:hover {
     box-shadow: 0px 0px 10px #fa8405;
 }
 
@@ -53,32 +57,36 @@ text-transform: capitalize;
 
 
 /* navbar */
-nav{
+nav {
     width: 75%;
 }
-nav .navbar-brand{
-    font-size: 29px!important;
+
+nav .navbar-brand {
+    font-size: 29px !important;
     font-weight: 800;
     color: white;
     transition: all 0.2s ease-in-out;
 }
 
 
-nav .container-fluid ul li a{
+nav .container-fluid ul li a {
     color: white;
-    font: size 16px !important;;
+    font: size 16px !important;
+    ;
     /* margin-left: 10px; */
     transition: all 0.2s ease-in-out;
 }
-nav .container-fluid ul li a:hover{
+
+nav .container-fluid ul li a:hover {
     color: #fa8405;
-    font: size 16px !important;;
+    font: size 16px !important;
+    ;
     /* margin-left: 10px; */
 }
 
 /* banner */
 
-.banner{
+.banner {
     width: 100%;
     height: 115vh;
     background-image: url(../image/banner-bg.png);
@@ -86,24 +94,24 @@ nav .container-fluid ul li a:hover{
     background-position: center;
     background-color: rgba(0, 0, 0, 0.507);
     background-blend-mode: overlay;
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 50px;
 }
 
-.banner-main{
+.banner-main {
     width: 80%;
     height: 80%;
     /* margin-top: 5%; */
-   
-   
+
+
     /* flex-direction: column; */
 }
 
-.banner-main .left-container{
-    width:50%;
+.banner-main .left-container {
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -111,13 +119,15 @@ nav .container-fluid ul li a:hover{
     flex-direction: column;
     gap: 20px;
 }
-.banner-main .left-container button{
+
+.banner-main .left-container button {
     width: 55%;
 
 }
-.banner-main .right-container{
-    width:50%;
-    
+
+.banner-main .right-container {
+    width: 50%;
+
     /* height: 100vh; */
     display: flex;
     justify-content: center;
@@ -125,6 +135,7 @@ nav .container-fluid ul li a:hover{
     flex-direction: column;
     gap: 20px;
 }
+
 /* .banner-main .right-container img{
     height: 600px;
     width: 600px;
@@ -134,14 +145,14 @@ nav .container-fluid ul li a:hover{
 
 /* carousel */
 
-.carousel{
+.carousel {
     width: 100%;
     height: 520px;
-   
+
 }
 
-.carousel img{
-    height: 500px!important;
+.carousel img {
+    height: 500px !important;
     width: 500px !important;
     margin: auto;
     object-fit: cover;
@@ -152,25 +163,26 @@ nav .container-fluid ul li a:hover{
     width: 100%;
     height: 800px;
     /* position: relative; */
-   
 
 
 
-.left-carousel{
-   transform: translateX(-200%);
-   transition: all 0.5s ;
+
+.left-carousel {
+    transform: translateX(-200%);
+    transition: all 0.5s;
 
 }
-.right-carousel{
+
+.right-carousel {
     transform: translateX(-250%);
-    transition: all 0.5s ;
-   
+    transition: all 0.5s;
+
 }
 
 
 
 /* best */
-.best{
+.best {
     height: 600px;
     margin-top: 100px;
     width: 100%;
@@ -180,7 +192,8 @@ nav .container-fluid ul li a:hover{
     flex-direction: column;
     gap: 20px;
 }
-.best .best-bottom{
+
+.best .best-bottom {
     margin-top: 20px;
     width: 80%;
     display: flex;
@@ -189,22 +202,23 @@ nav .container-fluid ul li a:hover{
     flex-direction: row;
 }
 
-.best .best-bottom img{
+.best .best-bottom img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
-.best .best-bottom i{
-    margin-top: 50px!important;
+
+.best .best-bottom i {
+    margin-top: 50px !important;
     font-size: 20px;
     color: white;
 }
 
-.best .best-bottom img:hover{
+.best .best-bottom img:hover {
     /* transform: rotate3d(1, 1, 1, 360deg); */
-    transform: perspective(1000px) rotateY(180deg);
-    /* transform: scale3d(1.1, 1.1, 1.1); */
+    /* transform: perspective(1000px) rotateY(180deg); */
+    transform: scale3d(1.1, 1.1, 1.1);
     box-shadow: 0px 0px 15px #fa8405;
     cursor: pointer;
     border-radius: 20px;
@@ -214,12 +228,13 @@ nav .container-fluid ul li a:hover{
 
 
 /* open */
-.open{
+.open {
     width: 100%;
-   height: 600px;
-   overflow-x: hidden;
+    height: 600px;
+    overflow-x: hidden;
 }
-.open .left-container{
+
+.open .left-container {
     width: 50%;
     height: 100%;
     display: flex;
@@ -228,9 +243,10 @@ nav .container-fluid ul li a:hover{
     /* flex-direction: column; */
     gap: 20px;
     transform: translateX(-200%);
-    transition: all 0.5s ;
+    transition: all 0.5s;
 }
-.open .right-container{
+
+.open .right-container {
     width: 50%;
     height: 100%;
     display: flex;
@@ -239,11 +255,11 @@ nav .container-fluid ul li a:hover{
     /* flex-direction: column; */
     gap: 20px;
     transform: translateX(200%);
-    transition: all 0.5s ;
+    transition: all 0.5s;
 }
 
 
-.recent{
+.recent {
     width: 100%;
     height: 500px;
     display: flex;
@@ -253,21 +269,25 @@ nav .container-fluid ul li a:hover{
     gap: 20px;
     margin-top: 50px;
 
- 
+
 
 }
 
-footer{
+footer {
+    background-image: url(../image/banner-bg.png);
     background-color: rgba(128, 128, 128, 0.317);
     width: 100%;
     /* height: 200px; */
-   
+
 
 
 }
+footer h2{
+    color: orange!important;
+}
 
 
-footer i{
+footer i {
     font-size: 20px;
     color: rgb(0, 0, 0);
     margin: 0 10px;
@@ -284,125 +304,148 @@ footer i{
 /* media */
 
 @media (max-width: 1000px) {
-    .banner{
+    .banner {
         height: auto;
     }
-    .banner-main{
+
+    .banner-main {
         /* width: 90%; */
         height: auto;
 
     }
-    .carousel{
+
+    .carousel {
         height: auto;
     }
-    .best{
+
+    .best {
         height: auto;
     }
-    .open{
+
+    .open {
         height: auto;
     }
-    .recent{
+
+    .recent {
         height: auto;
     }
-    /* footer{
+
+    footer{
         height: auto;
-    } */
+        padding: 20px;
+    }
 }
+
 @media (max-width: 800px) {
-    nav{
+    nav {
         width: 100%;
     }
-    nav
-    .banner{
+
+    nav .banner {
         height: auto;
     }
-    .banner-main{
+
+    .banner-main {
         width: 90%;
         height: auto;
-        flex-direction: column-reverse!important;
+        flex-direction: column-reverse !important;
 
     }
-    .banner-main .left-container button{
-        width: 100%!important;
-        
-    }
-    .banner-main .left-container p{
-        width: 100%!important;
 
-        
+    .banner-main .left-container button {
+        width: 100% !important;
+
     }
-    .carousel{
+
+    .banner-main .left-container p {
+        width: 100% !important;
+
+
+    }
+
+    .carousel {
         height: auto;
     }
-    .best{
+
+    .best {
         height: auto;
     }
-    .open{
+
+    .open {
         height: auto;
     }
-    .recent{
+
+    .recent {
         height: auto;
     }
-    .open{
+
+    .open {
         overflow: hidden;
     }
 }
 
 @media (max-width: 600px) {
-    .banner{
+    .banner {
         height: auto;
     }
-    .banner-main{
+
+    .banner-main {
         width: 90%;
         height: auto;
 
     }
-     .banner-main .left-container{
-        width: 100%!important;
-        height: auto!important;
-        flex-direction: column!important;
-        gap: 10px!important;
-        justify-content: center!important;
-        align-items: center!important;
-     }
-    .banner-main .left-container button{
-        width: 70%!important;
-        /* margin-left: 10%; */
-        
-    }
-    .banner-main .left-container p{
-        width: 100%!important;
 
-        
+    .banner-main .left-container {
+        width: 100% !important;
+        height: auto !important;
+        flex-direction: column !important;
+        gap: 10px !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
-    .banner-main .right-container{
-        width: 100%!important;
+
+    .banner-main .left-container button {
+        width: 70% !important;
+        /* margin-left: 10%; */
+
+    }
+
+    .banner-main .left-container p {
+        width: 100% !important;
+
+
+    }
+
+    .banner-main .right-container {
+        width: 100% !important;
         /* height: auto!important; */
-        flex-direction: column!important;
-        gap: 10px!important;
-        justify-content: center!important;
-        align-items: center!important;
-        margin-top: 50px!important;
-     }
-    .carousel img{
-        height: 300px!important;
+        flex-direction: column !important;
+        gap: 10px !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-top: 50px !important;
+    }
+
+    .carousel img {
+        height: 300px !important;
         width: 300px !important;
         margin: auto;
         object-fit: cover;
         object-position: center;
     }
-    .open .left-container{
+
+    .open .left-container {
         width: 100%;
     }
-    .open .right-container{
+
+    .open .right-container {
         width: 100%;
     }
-    footer{
+
+    footer {
         height: auto;
         margin-top: 50px;
         padding: 20px;
     }
-    .navbar-brand{
-        
-    }
+
 }
